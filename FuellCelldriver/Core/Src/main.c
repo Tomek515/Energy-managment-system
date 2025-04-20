@@ -101,7 +101,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  float voltage = Read_ADC_Value();
+	  float CapacitorVoltage = Read_ADC_Value(4);
+	  float CellVoltage = Read_ADC_Value(2);
+
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
