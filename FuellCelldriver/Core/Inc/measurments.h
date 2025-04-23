@@ -22,7 +22,7 @@ float Read_ADC_Value(uint8_t channel_number);
 
 //Temperature measurement
 float Read_Temp();
-// Cell Temperature
+// Cell Temperatur
 
 typedef struct {
 	float Current;
