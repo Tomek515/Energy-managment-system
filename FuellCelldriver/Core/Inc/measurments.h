@@ -30,6 +30,7 @@ typedef struct {
 } CurrentResult;
 CurrentResult Read_Current(void);
 
+
 typedef struct {
 	float Voltage;
 
