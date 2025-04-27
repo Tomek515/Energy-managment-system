@@ -86,4 +86,15 @@ CapacitorResult Read_CapacitorVoltage(void){
 	return capacitor_result;
 }
 
+Cell_VoltageResult Read_CellVoltage(void){
+	Cell_VoltageResult cell_result;
+
+	float cell_divider= 9.41f;
+
+	float cell_voltage=Read_ADC_Value(2);
+
+	cell_result.CellVoltage = cell_voltage * cell_divider;
+
+	return cell_result;
+}
 

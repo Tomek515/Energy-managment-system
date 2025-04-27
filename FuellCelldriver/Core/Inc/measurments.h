@@ -30,11 +30,18 @@ typedef struct {
 } CurrentResult;
 CurrentResult Read_Current(void);
 
-
+//capacitor voltage
 typedef struct {
 	float Voltage;
 
 }CapacitorResult;
 CapacitorResult Read_Capacitorvoltage(void);
 
+
+//CellVoltage
+typedef struct {
+	float CellVoltage;
+
+}Cell_VoltageResult;
+Cell_VoltageResult Read_Cellvoltage(void);
 #endif /* INC_MEASURMENTS_H_ */
